@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.10.14" />
+    <PackageReference Include="Moq" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\01-Presentation\DeliveryService.Api\DeliveryService.Api.csproj" />
+    <ProjectReference Include="..\..\src\02-Application\DeliveryService.Application.Command\DeliveryService.Application.Command.csproj" />
+    <ProjectReference Include="..\..\src\02-Application\DeliveryService.Application.Query\DeliveryService.Application.Query.csproj" />
+    <ProjectReference Include="..\..\src\03-Infrastructure\DeliveryService.Infrastructure.Data\DeliveryService.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\..\src\04-Domain\DeliveryService.Domain.Model\DeliveryService.Domain.Model.csproj" />
+    <ProjectReference Include="..\..\src\99-Crosscutting\DeliveryService.Crosscutting\DeliveryService.Crosscutting.csproj" />
+  </ItemGroup>
+
+</Project>
