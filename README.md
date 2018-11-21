@@ -144,7 +144,7 @@ INSERT INTO routes (PointFromCode, PointToCode, Cost, Time) VALUES ('i','b', 5 ,
 
 ---
 
-![Image of step 3](https://drive.google.com/uc?id=1LoO5fX8lX_uLV4IsoDMJxNpzkP5wMkcW&export=download)
+![Image of step 3](https://drive.google.com/uc?id=1lfkgm9bqdfotyKDZnIXDEYqfVc4V7OCC&export=download)
 
 --- 
  
